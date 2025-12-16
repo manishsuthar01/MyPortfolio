@@ -13,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_quwae1f",
-        "template_z6fk0wi",
+        "service_********",
+        "template_*******",
         form.current,
-        "pVwbg4C3i_Qli7pti"
+        "*********"
       )
       .then(() => {
         alert("✅ Message sent successfully!");
@@ -128,3 +128,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
